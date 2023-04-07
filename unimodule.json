@@ -1,0 +1,4 @@
+{
+  "name": "expo-tone-generator",
+  "platforms": ["ios", "android"]
+}

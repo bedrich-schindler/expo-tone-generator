@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["ToneGeneratorModule"]
+  },
+  "android": {
+    "modules": ["cz.schindler.tonegenerator.ToneGeneratorModule"]
+  }
+}
