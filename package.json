@@ -19,10 +19,16 @@
     "tonegenerator",
     "tone-generator"
   ],
-  "repository": "https://github.com/bedrich-schindler/expo-tone-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bedrich-schindler/expo-tone-generator.git"
+  },
   "author": "Bedřich Schindler <bedrich.schindler@gmail.com> (https://github.com/bedrich-schindler)",
+  "homepage": "https://github.com/bedrich-schindler/expo-tone-generator/#readme",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "expo-tone-generator": "^0.1.0"
+  },
   "devDependencies": {
     "expo-module-scripts": "^3.0.4",
     "expo-modules-core": "^1.1.0"
