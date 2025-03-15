@@ -1,6 +1,6 @@
 {
   "name": "expo-tone-generator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tone Generator for Expo",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -26,9 +26,6 @@
   "author": "Bedřich Schindler <bedrich.schindler@gmail.com> (https://github.com/bedrich-schindler)",
   "homepage": "https://github.com/bedrich-schindler/expo-tone-generator/#readme",
   "license": "MIT",
-  "dependencies": {
-    "expo-tone-generator": "^0.1.0"
-  },
   "devDependencies": {
     "expo-module-scripts": "^3.0.4",
     "expo-modules-core": "^1.1.0"
