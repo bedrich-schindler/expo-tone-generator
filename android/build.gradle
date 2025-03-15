@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'maven-publish'
 
 group = 'cz.schindler.tonegenerator'
-version = '0.2.0'
+version = '0.2.1'
 
 buildscript {
   def expoModulesCorePlugin = new File(project(":expo-modules-core").projectDir.absolutePath, "ExpoModulesCorePlugin.gradle")
@@ -65,8 +65,8 @@ android {
   defaultConfig {
     minSdkVersion safeExtGet("minSdkVersion", 21)
     targetSdkVersion safeExtGet("targetSdkVersion", 31)
-    versionCode 2
-    versionName "0.2.0"
+    versionCode 3
+    versionName "0.2.1"
   }
 
   lintOptions {
